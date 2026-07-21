@@ -1,14 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
+  basePath: '/LIGO-sports', // <-- ADD THIS LINE (Match repository name exactly)
   images: {
     unoptimized: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // Forces build even with TypeScript errors
+    ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // Forces build even with syntax/style warnings
+    ignoreDuringBuilds: true,
   },
 };
 
