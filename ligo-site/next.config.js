@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/LIGO-sports', // <-- ADD THIS LINE (Match repository name exactly)
+  basePath: '/LIGO-sports', 
   images: {
     unoptimized: true,
   },
